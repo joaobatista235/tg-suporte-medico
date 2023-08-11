@@ -1,0 +1,44 @@
+// .image-content {
+//     background-image: url('/images/background-medico.jpg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 70vh;
+//     width: 100%;
+//     filter: blur(3px);
+// }
+
+// .content {
+//     position: absolute;
+//     transform: translate(-50%, -50%);
+//     top: 40%;
+//     left: 30%;
+//     z-index: 2;
+//     width: 80%;
+//     padding: 20px;
+//     text-align: center;
+// }
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title {
+    font-size: 42px;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
+
+.medical {
+    background-color: #fff;
+    color: #85c9b8;
+    padding: 5px 20px;
+    
+}
+.service {
+    background-color: #85c9b8;
+    color: #fff;
+    padding: 5px 20px;
+}
